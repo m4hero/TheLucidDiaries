@@ -20,7 +20,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
 .header {
   font-size: 55;
   float: left;
-  padding-top: 50px;
   padding-left: 300px;
 }
 .content {
