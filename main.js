@@ -1,3 +1,5 @@
+require('bootstrap');
+
 var  Diaries = [
     {chapter: "Intro",
      track: "X",
@@ -37,7 +39,7 @@ $(document).ready(function () {
     $("#next-arrow").click(function(){
         
         $("#pic").animate({opacity: "toggle",height: "toggle"},2000);
-        
+
         $("#pic").attr("src", function(){
             count++
             return "" + Diaries[count].link
